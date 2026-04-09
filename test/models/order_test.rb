@@ -34,6 +34,4 @@ class OrderTest < ActiveSupport::TestCase
     assert_equal 1, @user.account.transactions.count
     assert_equal "credit", @user.account.transactions.last.kind
   end
-
-
 end
